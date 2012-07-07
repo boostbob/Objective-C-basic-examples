@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6871C43515A5DAA300A9CCC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6871C43415A5DAA300A9CCC7 /* Foundation.framework */; };
+		6871C43815A5DAA300A9CCC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871C43715A5DAA300A9CCC7 /* main.m */; };
+		6871C43C15A5DAA300A9CCC7 /* ShapeCStyle.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6871C43B15A5DAA300A9CCC7 /* ShapeCStyle.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6871C42E15A5DAA300A9CCC7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				6871C43C15A5DAA300A9CCC7 /* ShapeCStyle.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6871C43015A5DAA300A9CCC7 /* ShapeCStyle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShapeCStyle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6871C43415A5DAA300A9CCC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6871C43715A5DAA300A9CCC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6871C43A15A5DAA300A9CCC7 /* ShapeCStyle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShapeCStyle-Prefix.pch"; sourceTree = "<group>"; };
+		6871C43B15A5DAA300A9CCC7 /* ShapeCStyle.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = ShapeCStyle.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6871C42D15A5DAA300A9CCC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6871C43515A5DAA300A9CCC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6871C42515A5DAA300A9CCC7 = {
+			isa = PBXGroup;
+			children = (
+				6871C43615A5DAA300A9CCC7 /* ShapeCStyle */,
+				6871C43315A5DAA300A9CCC7 /* Frameworks */,
+				6871C43115A5DAA300A9CCC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6871C43115A5DAA300A9CCC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6871C43015A5DAA300A9CCC7 /* ShapeCStyle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6871C43315A5DAA300A9CCC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6871C43415A5DAA300A9CCC7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6871C43615A5DAA300A9CCC7 /* ShapeCStyle */ = {
+			isa = PBXGroup;
+			children = (
+				6871C43715A5DAA300A9CCC7 /* main.m */,
+				6871C43B15A5DAA300A9CCC7 /* ShapeCStyle.1 */,
+				6871C43915A5DAA300A9CCC7 /* Supporting Files */,
+			);
+			path = ShapeCStyle;
+			sourceTree = "<group>";
+		};
+		6871C43915A5DAA300A9CCC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6871C43A15A5DAA300A9CCC7 /* ShapeCStyle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6871C42F15A5DAA300A9CCC7 /* ShapeCStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6871C43F15A5DAA300A9CCC7 /* Build configuration list for PBXNativeTarget "ShapeCStyle" */;
+			buildPhases = (
+				6871C42C15A5DAA300A9CCC7 /* Sources */,
+				6871C42D15A5DAA300A9CCC7 /* Frameworks */,
+				6871C42E15A5DAA300A9CCC7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShapeCStyle;
+			productName = ShapeCStyle;
+			productReference = 6871C43015A5DAA300A9CCC7 /* ShapeCStyle */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6871C42715A5DAA300A9CCC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6871C42A15A5DAA300A9CCC7 /* Build configuration list for PBXProject "ShapeCStyle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6871C42515A5DAA300A9CCC7;
+			productRefGroup = 6871C43115A5DAA300A9CCC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6871C42F15A5DAA300A9CCC7 /* ShapeCStyle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6871C42C15A5DAA300A9CCC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6871C43815A5DAA300A9CCC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6871C43D15A5DAA300A9CCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6871C43E15A5DAA300A9CCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6871C44015A5DAA300A9CCC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeCStyle/ShapeCStyle-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6871C44115A5DAA300A9CCC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeCStyle/ShapeCStyle-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6871C42A15A5DAA300A9CCC7 /* Build configuration list for PBXProject "ShapeCStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6871C43D15A5DAA300A9CCC7 /* Debug */,
+				6871C43E15A5DAA300A9CCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6871C43F15A5DAA300A9CCC7 /* Build configuration list for PBXNativeTarget "ShapeCStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6871C44015A5DAA300A9CCC7 /* Debug */,
+				6871C44115A5DAA300A9CCC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6871C42715A5DAA300A9CCC7 /* Project object */;
+}
