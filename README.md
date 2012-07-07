@@ -1,4 +1,4 @@
 Objective-C-basic-examples
 ==========================
 
-objecttive-c basic examples.
+objective-c basic examples.
