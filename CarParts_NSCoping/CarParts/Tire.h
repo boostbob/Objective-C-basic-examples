@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface Tire : NSObject
+@interface Tire : NSObject<NSCopying>
 {
     float pressure;
     float treadDepth;

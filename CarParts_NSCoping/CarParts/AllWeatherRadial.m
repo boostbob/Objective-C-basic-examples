@@ -31,4 +31,17 @@
     return desc;
 }
 
+- (id)copyWithZone:(NSZone *)zone
+{
+    AllWeatherRadial *tireCopy;
+    // 直接调用超类的完成超类规模的构造
+    // 超类使用的[self class]因而知道这里是对AllWeatherRadial对象的allocWithZone操作
+    // copyWithZone
+    tireCopy = [super copyWithZone:zone];
+    [tireCopy setRainHanding:rainHanding];
+    [tireCopy setSnowHanding:snowHanding];
+    
+    return tireCopy;
+}
+
 @end

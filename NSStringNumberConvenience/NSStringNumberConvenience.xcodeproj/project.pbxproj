@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68AFA5CA15A9AFC000000AA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68AFA5C915A9AFC000000AA6 /* Foundation.framework */; };
+		68AFA5CD15A9AFC000000AA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AFA5CC15A9AFC000000AA6 /* main.m */; };
+		68AFA5D115A9AFC000000AA6 /* NSStringNumberConvenience.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 68AFA5D015A9AFC000000AA6 /* NSStringNumberConvenience.1 */; };
+		68AFA5D915A9AFDA00000AA6 /* NSStringExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 68AFA5D815A9AFDA00000AA6 /* NSStringExt.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		68AFA5C315A9AFC000000AA6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				68AFA5D115A9AFC000000AA6 /* NSStringNumberConvenience.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		68AFA5C515A9AFC000000AA6 /* NSStringNumberConvenience */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSStringNumberConvenience; sourceTree = BUILT_PRODUCTS_DIR; };
+		68AFA5C915A9AFC000000AA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68AFA5CC15A9AFC000000AA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68AFA5CF15A9AFC000000AA6 /* NSStringNumberConvenience-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSStringNumberConvenience-Prefix.pch"; sourceTree = "<group>"; };
+		68AFA5D015A9AFC000000AA6 /* NSStringNumberConvenience.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = NSStringNumberConvenience.1; sourceTree = "<group>"; };
+		68AFA5D715A9AFDA00000AA6 /* NSStringExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringExt.h; sourceTree = "<group>"; };
+		68AFA5D815A9AFDA00000AA6 /* NSStringExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringExt.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68AFA5C215A9AFC000000AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AFA5CA15A9AFC000000AA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68AFA5BA15A9AFC000000AA6 = {
+			isa = PBXGroup;
+			children = (
+				68AFA5CB15A9AFC000000AA6 /* NSStringNumberConvenience */,
+				68AFA5C815A9AFC000000AA6 /* Frameworks */,
+				68AFA5C615A9AFC000000AA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68AFA5C615A9AFC000000AA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68AFA5C515A9AFC000000AA6 /* NSStringNumberConvenience */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68AFA5C815A9AFC000000AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68AFA5C915A9AFC000000AA6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68AFA5CB15A9AFC000000AA6 /* NSStringNumberConvenience */ = {
+			isa = PBXGroup;
+			children = (
+				68AFA5CC15A9AFC000000AA6 /* main.m */,
+				68AFA5D715A9AFDA00000AA6 /* NSStringExt.h */,
+				68AFA5D815A9AFDA00000AA6 /* NSStringExt.m */,
+				68AFA5D015A9AFC000000AA6 /* NSStringNumberConvenience.1 */,
+				68AFA5CE15A9AFC000000AA6 /* Supporting Files */,
+			);
+			path = NSStringNumberConvenience;
+			sourceTree = "<group>";
+		};
+		68AFA5CE15A9AFC000000AA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68AFA5CF15A9AFC000000AA6 /* NSStringNumberConvenience-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68AFA5C415A9AFC000000AA6 /* NSStringNumberConvenience */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68AFA5D415A9AFC000000AA6 /* Build configuration list for PBXNativeTarget "NSStringNumberConvenience" */;
+			buildPhases = (
+				68AFA5C115A9AFC000000AA6 /* Sources */,
+				68AFA5C215A9AFC000000AA6 /* Frameworks */,
+				68AFA5C315A9AFC000000AA6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSStringNumberConvenience;
+			productName = NSStringNumberConvenience;
+			productReference = 68AFA5C515A9AFC000000AA6 /* NSStringNumberConvenience */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68AFA5BC15A9AFC000000AA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 68AFA5BF15A9AFC000000AA6 /* Build configuration list for PBXProject "NSStringNumberConvenience" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68AFA5BA15A9AFC000000AA6;
+			productRefGroup = 68AFA5C615A9AFC000000AA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68AFA5C415A9AFC000000AA6 /* NSStringNumberConvenience */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68AFA5C115A9AFC000000AA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AFA5CD15A9AFC000000AA6 /* main.m in Sources */,
+				68AFA5D915A9AFDA00000AA6 /* NSStringExt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68AFA5D215A9AFC000000AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68AFA5D315A9AFC000000AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68AFA5D515A9AFC000000AA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSStringNumberConvenience/NSStringNumberConvenience-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		68AFA5D615A9AFC000000AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSStringNumberConvenience/NSStringNumberConvenience-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68AFA5BF15A9AFC000000AA6 /* Build configuration list for PBXProject "NSStringNumberConvenience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AFA5D215A9AFC000000AA6 /* Debug */,
+				68AFA5D315A9AFC000000AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68AFA5D415A9AFC000000AA6 /* Build configuration list for PBXNativeTarget "NSStringNumberConvenience" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68AFA5D515A9AFC000000AA6 /* Debug */,
+				68AFA5D615A9AFC000000AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68AFA5BC15A9AFC000000AA6 /* Project object */;
+}

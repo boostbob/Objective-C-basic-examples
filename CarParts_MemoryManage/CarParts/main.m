@@ -39,14 +39,16 @@ void StartNormalCar(Car *car)
 void StartSpecCar(Car *car)
 {
     // 更换引擎
-    Engine *engine = [[Slant6 alloc] init];
+    Slant6 *engine = [[Slant6 alloc] init];
     [car setEngine: engine];
     [engine release];
     
     // 更换轮胎
     for(int i = 0; i < 4; i++)
     {
-        Tire *tire = [[AllWeatherRadial alloc] init];
+        AllWeatherRadial *tire = [[AllWeatherRadial alloc] init];
+        tire.rainHanding = 20 + i;
+        tire.snowHanding = 28 + i;
         [car setTire:tire atIndex:i];
         [tire release];
     }
@@ -59,13 +61,10 @@ void StartSpecCar(Car *car)
 
 int main (int argc, const char * argv[])
 {
-    @autoreleasepool
-    {
-        Car *car = [Car new];
+    Car *car = [Car new];
         
-        StartNormalCar(car);
-        StartSpecCar(car);
-    }
+    StartNormalCar(car);
+    StartSpecCar(car);
     
     return 0;
 }

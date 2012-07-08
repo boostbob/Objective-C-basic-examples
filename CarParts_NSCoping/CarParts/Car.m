@@ -66,4 +66,28 @@
     [super dealloc];
 }
 
+- (id)copyWithZone:(NSZone *)zone
+{
+    // Car对象的复制会稍微复杂一点
+    Car *carCopy;
+    carCopy = [[[self class] allocWithZone:zone] init];
+    
+    // 复制引擎
+    Engine *engineCopy;
+    engineCopy = [[engine copy] autorelease];
+    carCopy.engine = engineCopy;
+    
+    // 复制轮胎
+    for (int i = 0; i < 4; i++) 
+    {
+        Tire *tireCopy;
+        tireCopy = [[self tireAtIndex:i] copy];
+        [tireCopy autorelease];
+        
+        [tireCopy setTire:tireCopy atIndex:i];
+    }
+    
+    return carCopy;
+}
+
 @end

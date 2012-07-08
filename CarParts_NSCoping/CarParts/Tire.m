@@ -48,4 +48,11 @@
     return desc;
 }
 
+- (id) copyWithZone:(NSZone *)zone
+{
+    Tire *tireCopy;
+    tireCopy = [[[self class] allocWithZone:zone] init];
+    return tireCopy;
+}
+
 @end
