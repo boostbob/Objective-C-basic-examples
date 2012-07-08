@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NSRect' target in the 'NSRect' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
