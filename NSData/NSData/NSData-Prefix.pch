@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'NSData' target in the 'NSData' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
