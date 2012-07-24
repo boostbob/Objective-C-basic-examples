@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68E6361E15BEE35D00592208 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E6361D15BEE35D00592208 /* Cocoa.framework */; };
+		68E6362815BEE35D00592208 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68E6362615BEE35D00592208 /* InfoPlist.strings */; };
+		68E6362A15BEE35D00592208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E6362915BEE35D00592208 /* main.m */; };
+		68E6362E15BEE35D00592208 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 68E6362C15BEE35D00592208 /* Credits.rtf */; };
+		68E6363115BEE35D00592208 /* SimpleNotepadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E6363015BEE35D00592208 /* SimpleNotepadAppDelegate.m */; };
+		68E6363415BEE35E00592208 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68E6363215BEE35E00592208 /* MainMenu.xib */; };
+		68E6363C15BEE68600592208 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E6363B15BEE68600592208 /* AppController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68E6361915BEE35D00592208 /* SimpleNotepad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleNotepad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E6361D15BEE35D00592208 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		68E6362015BEE35D00592208 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		68E6362115BEE35D00592208 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		68E6362215BEE35D00592208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68E6362515BEE35D00592208 /* SimpleNotepad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleNotepad-Info.plist"; sourceTree = "<group>"; };
+		68E6362715BEE35D00592208 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68E6362915BEE35D00592208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68E6362B15BEE35D00592208 /* SimpleNotepad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleNotepad-Prefix.pch"; sourceTree = "<group>"; };
+		68E6362D15BEE35D00592208 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		68E6362F15BEE35D00592208 /* SimpleNotepadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleNotepadAppDelegate.h; sourceTree = "<group>"; };
+		68E6363015BEE35D00592208 /* SimpleNotepadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleNotepadAppDelegate.m; sourceTree = "<group>"; };
+		68E6363315BEE35E00592208 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		68E6363A15BEE68600592208 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		68E6363B15BEE68600592208 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E6361615BEE35D00592208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E6361E15BEE35D00592208 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68E6360E15BEE35D00592208 = {
+			isa = PBXGroup;
+			children = (
+				68E6362315BEE35D00592208 /* SimpleNotepad */,
+				68E6361C15BEE35D00592208 /* Frameworks */,
+				68E6361A15BEE35D00592208 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68E6361A15BEE35D00592208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E6361915BEE35D00592208 /* SimpleNotepad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68E6361C15BEE35D00592208 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68E6361D15BEE35D00592208 /* Cocoa.framework */,
+				68E6361F15BEE35D00592208 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68E6361F15BEE35D00592208 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68E6362015BEE35D00592208 /* AppKit.framework */,
+				68E6362115BEE35D00592208 /* CoreData.framework */,
+				68E6362215BEE35D00592208 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		68E6362315BEE35D00592208 /* SimpleNotepad */ = {
+			isa = PBXGroup;
+			children = (
+				68E6362F15BEE35D00592208 /* SimpleNotepadAppDelegate.h */,
+				68E6363A15BEE68600592208 /* AppController.h */,
+				68E6363B15BEE68600592208 /* AppController.m */,
+				68E6363015BEE35D00592208 /* SimpleNotepadAppDelegate.m */,
+				68E6363215BEE35E00592208 /* MainMenu.xib */,
+				68E6362415BEE35D00592208 /* Supporting Files */,
+			);
+			path = SimpleNotepad;
+			sourceTree = "<group>";
+		};
+		68E6362415BEE35D00592208 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68E6362515BEE35D00592208 /* SimpleNotepad-Info.plist */,
+				68E6362615BEE35D00592208 /* InfoPlist.strings */,
+				68E6362915BEE35D00592208 /* main.m */,
+				68E6362B15BEE35D00592208 /* SimpleNotepad-Prefix.pch */,
+				68E6362C15BEE35D00592208 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68E6361815BEE35D00592208 /* SimpleNotepad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E6363715BEE35E00592208 /* Build configuration list for PBXNativeTarget "SimpleNotepad" */;
+			buildPhases = (
+				68E6361515BEE35D00592208 /* Sources */,
+				68E6361615BEE35D00592208 /* Frameworks */,
+				68E6361715BEE35D00592208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleNotepad;
+			productName = SimpleNotepad;
+			productReference = 68E6361915BEE35D00592208 /* SimpleNotepad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68E6361015BEE35D00592208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 68E6361315BEE35D00592208 /* Build configuration list for PBXProject "SimpleNotepad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68E6360E15BEE35D00592208;
+			productRefGroup = 68E6361A15BEE35D00592208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68E6361815BEE35D00592208 /* SimpleNotepad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68E6361715BEE35D00592208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E6362815BEE35D00592208 /* InfoPlist.strings in Resources */,
+				68E6362E15BEE35D00592208 /* Credits.rtf in Resources */,
+				68E6363415BEE35E00592208 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E6361515BEE35D00592208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E6362A15BEE35D00592208 /* main.m in Sources */,
+				68E6363115BEE35D00592208 /* SimpleNotepadAppDelegate.m in Sources */,
+				68E6363C15BEE68600592208 /* AppController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68E6362615BEE35D00592208 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E6362715BEE35D00592208 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68E6362C15BEE35D00592208 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E6362D15BEE35D00592208 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		68E6363215BEE35E00592208 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E6363315BEE35E00592208 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68E6363515BEE35E00592208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68E6363615BEE35E00592208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68E6363815BEE35E00592208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleNotepad/SimpleNotepad-Prefix.pch";
+				INFOPLIST_FILE = "SimpleNotepad/SimpleNotepad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68E6363915BEE35E00592208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleNotepad/SimpleNotepad-Prefix.pch";
+				INFOPLIST_FILE = "SimpleNotepad/SimpleNotepad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68E6361315BEE35D00592208 /* Build configuration list for PBXProject "SimpleNotepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E6363515BEE35E00592208 /* Debug */,
+				68E6363615BEE35E00592208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E6363715BEE35E00592208 /* Build configuration list for PBXNativeTarget "SimpleNotepad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E6363815BEE35E00592208 /* Debug */,
+				68E6363915BEE35E00592208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68E6361015BEE35D00592208 /* Project object */;
+}
