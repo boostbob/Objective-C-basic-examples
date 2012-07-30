@@ -133,7 +133,7 @@
 		68E6361015BEE35D00592208 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0440;
 			};
 			buildConfigurationList = 68E6361315BEE35D00592208 /* Build configuration list for PBXProject "SimpleNotepad" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -256,6 +256,7 @@
 		68E6363815BEE35E00592208 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleNotepad/SimpleNotepad-Prefix.pch";
 				INFOPLIST_FILE = "SimpleNotepad/SimpleNotepad-Info.plist";
@@ -267,6 +268,7 @@
 		68E6363915BEE35E00592208 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleNotepad/SimpleNotepad-Prefix.pch";
 				INFOPLIST_FILE = "SimpleNotepad/SimpleNotepad-Info.plist";
@@ -294,6 +296,7 @@
 				68E6363915BEE35E00592208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
