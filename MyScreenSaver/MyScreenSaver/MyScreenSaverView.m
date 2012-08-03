@@ -18,6 +18,7 @@ static NSString * const MyModuleName = @"com.boostbob.MyScreenSaver";
     
     if (self)
     {
+        // ScreenSaverDefaults Cool
         ScreenSaverDefaults *defaults;
         defaults = [ScreenSaverDefaults defaultsForModuleWithName:MyModuleName];
 
@@ -25,7 +26,7 @@ static NSString * const MyModuleName = @"com.boostbob.MyScreenSaver";
         [defaults registerDefaults:[NSDictionary dictionaryWithObjectsAndKeys:
                                     @"NO", @"DrawFilledShapes",
                                     @"NO", @"DrawOutlinedShapes",
-                                    @"YES", @"DrawBoth",
+                                    @"YES", @"DrawBoth", // 默认是两种图案都可以
                                     nil]];
         
         [self setAnimationTimeInterval:1/30.0];
@@ -65,6 +66,8 @@ static NSString * const MyModuleName = @"com.boostbob.MyScreenSaver";
     size = [self bounds].size;
     
     //calulate random with and height
+    // SSRandomFloatBetween由random构造，是一个内敛函数
+    // 都是CG库
     rect.size = NSMakeSize(SSRandomFloatBetween(size.width / 100.0, size.width / 10.0), SSRandomFloatBetween(size.height / 100.0, size.height / 10.0));
     
     // calulate random origin point
@@ -91,9 +94,9 @@ static NSString * const MyModuleName = @"com.boostbob.MyScreenSaver";
                 endAngle = SSRandomIntBetween(startAngle, 360.0 + startAngle);
                 
                 // user the smallest value for the radius (eigher or height)
-                radius = rect.size.width <= rect.size.height ? rect.size.width / 2: rect.size.height / 2;
+                radius = rect.size.width <= rect.size.height ? rect.size.width / 2 : rect.size.height / 2;
                 
-                //calculate our center point
+                // calculate our center point
                 point = NSMakePoint(rect.origin.x + rect.size.width / 2, rect.origin.y + rect.size.height / 2);
                 
                 // construct the path
@@ -103,11 +106,11 @@ static NSString * const MyModuleName = @"com.boostbob.MyScreenSaver";
             break;
     }
     
-    red = SSRandomFloatBetween(0.0, 255.0) / 255.0;
-    green = SSRandomFloatBetween(0.0, 255.0) / 255.0;
-    blue = SSRandomFloatBetween(0.0, 255.0) / 255.0;
-    alpha = SSRandomFloatBetween(0.0, 255.0) / 255.0;
-    color = [NSColor colorWithCalibratedRed:red green:green blue:blue alpha:alpha];
+    red     = SSRandomFloatBetween(0.0, 255.0) / 255.0;
+    green   = SSRandomFloatBetween(0.0, 255.0) / 255.0;
+    blue    = SSRandomFloatBetween(0.0, 255.0) / 255.0;
+    alpha   = SSRandomFloatBetween(0.0, 255.0) / 255.0;
+    color   = [NSColor colorWithCalibratedRed:red green:green blue:blue alpha:alpha];
 
     [color set];
     
@@ -123,10 +126,11 @@ static NSString * const MyModuleName = @"com.boostbob.MyScreenSaver";
             [path fill];
         else
             [path stroke];
-    } else if ([defaults boolForKey:@"DrawFilledShapes"])
+    } else if ([defaults boolForKey:@"DrawFilledShapes"]) {
         [path fill];
-    else
+    } else {
         [path stroke];
+    }
 }
 
 - (BOOL)hasConfigureSheet
@@ -170,7 +174,7 @@ static NSString * const MyModuleName = @"com.boostbob.MyScreenSaver";
     [defaults setBool:[drawOutlinedShapesOption state] forKey:@"DrawOutlinedShapes"];
     [defaults setBool:[drawBothOption state] forKey:@"DrawBoth"];
     
-    // save the settings disl
+    // save the settings disk
     [defaults synchronize];
     
     // close the sheet
