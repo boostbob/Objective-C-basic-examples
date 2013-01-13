@@ -16,7 +16,7 @@
 @property (assign) IBOutlet NSTextField *textField;
 @property (assign) IBOutlet NSSlider *slider;
 
-@property(strong) Track *track;
+@property (strong) Track *track;
 
 
 - (IBAction)mute:(NSButton *)sender;
